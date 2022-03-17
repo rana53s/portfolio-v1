@@ -108,6 +108,17 @@ p {
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
+.sub-section h2 {
+  color: black;
+}
+
+.sub-section p {
+  font-size: 20px;
+  font-weight: bold;
+  color: lavender;
+}
+
+
 .sub-section-alternative {
   display: flex;
   flex-direction: column;
@@ -176,10 +187,12 @@ a {
 }
 
 footer {
-  background-color: whitesmoke;
-  color: darkslategray;
+  background-color: darkslategray;
+  color: black;
   text-align: center;
   padding: 70px;
+  box-shadow: 5px 5px 20px rgb(197, 195, 195);
+
 }
 
 .getTouch ul {
@@ -224,7 +237,7 @@ footer {
 
 .skils-logos span {
   display: flex;
-  padding: 6px;
+  padding: 10px;
 }
 .skils-logos span p {
   font-size: 18px;
