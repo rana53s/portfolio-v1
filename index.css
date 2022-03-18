@@ -121,9 +121,7 @@ p {
 
 .sub-section-alternative {
   display: flex;
-  flex-direction: column;
   text-align: center;
-  padding: 70px;
   background-color: darkslategray;
 }
 
