@@ -118,13 +118,6 @@ p {
   color: lavender;
 }
 
-
-.sub-section-alternative {
-  display: flex;
-  text-align: center;
-  background-color: darkslategray;
-}
-
 .headshot {
   width: 280px;
   border-radius: 50%;
@@ -134,41 +127,6 @@ p {
 .headshot-container {
   display: flex;
   align-items: center;
-}
-
-.project-card {
-  width: 300px;
-  height: 500px;
-  box-shadow: 5px 5px 20px rgb(197, 195, 195);
-  margin: 10px;
-}
-
-.project-container {
-  display: flex;
-  justify-content: space-around;
-}
-
-@media only screen and (max-width: 1000px) {
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-.project-image {
-  margin-top: 25px;
-  width: 250px;
-  border-radius: 125px;
-}
-
-hr {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.project-link {
-  text-decoration: none;
-  color: #ef744b;
 }
 
 a {
@@ -184,13 +142,14 @@ a {
   outline: 0;
 }
 
+/* ========== Footer CSS ============ */
+
 footer {
   background-color: darkslategray;
   color: black;
   text-align: center;
   padding: 70px;
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
-
 }
 
 .getTouch ul {
@@ -205,9 +164,13 @@ footer {
 .getTouch ul li {
   text-decoration: none;
 }
+
+/* ===================== Skills section CSS ================= */
+
 .skillSection {
+  padding: 12px;
   background-color: darkslategray;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .skillTitle {
   color: #fff;
@@ -215,7 +178,8 @@ footer {
   font-size: 35px;
   margin: auto;
   text-align: center;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 10px;
 }
 
 .skils-logos {
@@ -231,6 +195,7 @@ footer {
   text-align: center;
   max-width: 100%;
   margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .skils-logos span {
@@ -250,6 +215,61 @@ footer {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+/*  ================ Project section CSS ================ */
+
+.project-section {
+  text-align: center;
+  background-color: darkslategray;
+  margin-bottom: 0px;
+}
+
+.project-container {
+  margin: 5%;
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.project-body {
+  width: 60%;
+  height: 360px;
+  margin: 2%;
+}
+.project-body img {
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+}
+
+.project-desc {
+  width: 35%;
+  height: 360px;
+  margin: 2%;
+}
+.project-desc p {
+  font-size: 16px;
+  font-weight: bold;
+}
+.project-desc button {
+  border: none;
+  border-radius: 5px;
+  padding: 12px 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* ============ Responsiveness ================== */
 
 @media only screen and (max-width: 1000px) {
   .hamburger {
