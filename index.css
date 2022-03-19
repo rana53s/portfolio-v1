@@ -4,13 +4,13 @@ body {
 }
 
 section {
-  background-color: white;
+  background-color: lavender;
 }
 
 .hero {
   background-color: darkslategray;
   height: 70vh;
-  color: white;
+  color: lavender;
   font-size: 40px;
 }
 
@@ -109,7 +109,7 @@ p {
 }
 
 .sub-section h2 {
-  color: black;
+  color: lavender;
 }
 
 .sub-section p {
@@ -131,7 +131,7 @@ p {
 
 a {
   text-decoration: none;
-  color: white;
+  color: lavender;
 }
 
 .hamburger {
@@ -173,7 +173,7 @@ footer {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .skillTitle {
-  color: #fff;
+  color: lavender;
   font-weight: bold;
   font-size: 35px;
   margin: auto;
@@ -221,11 +221,17 @@ footer {
 .project-section {
   text-align: center;
   background-color: darkslategray;
-  margin-bottom: 0px;
+  color: lavender;
 }
 
 .project-container {
-  margin: 5%;
+  width: 100%;
+  height: auto;
+}
+
+.project-card {
+  margin: auto;
+  margin-bottom: 5%;
   display: flex;
   justify-content: space-around;
   width: 85%;
@@ -254,12 +260,14 @@ footer {
   font-size: 16px;
   font-weight: bold;
 }
+
 .project-desc button {
   border: none;
   border-radius: 5px;
   padding: 12px 25px;
   font-weight: bold;
   cursor: pointer;
+  
 }
 
 @media only screen and (max-width: 1000px) {
