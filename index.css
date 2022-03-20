@@ -212,6 +212,12 @@ a {
   margin: 8px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .skils-logos {
+    display: grid;
+  }
+}
+
 /*  ================ Project section CSS ================ */
 
 .project-section {
@@ -273,14 +279,12 @@ a {
   margin-top:20px;
 }
 .project-desc button:hover {
-  background-color: #E2D784 ;
+  background-color: #e0d683 ;
   padding: 16px 30px;
 }
 
-
-
 @media only screen and (max-width: 1000px) {
-  .project-container {
+  .project-card {
     display: flex;
     flex-wrap: wrap;
   }
