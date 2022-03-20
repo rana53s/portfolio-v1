@@ -215,6 +215,25 @@ a {
 @media only screen and (max-width: 1000px) {
   .skils-logos {
     display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-gap: 6px;
+    /* grid: 60px 60px ; */
+    justify-content: space-around;
+    place-items: center;
+    text-align: center;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .skils-logos {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-gap: 6px;
+    /* grid: 60px 60px ; */
+    justify-content: space-around;
+    place-items: center;
+    text-align: center;
+    height: auto;
   }
 }
 
@@ -285,8 +304,10 @@ a {
 
 @media only screen and (max-width: 1000px) {
   .project-card {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+  }
+  .project-desc {
+    margin-left: 10%;
   }
 }
 
@@ -315,9 +336,7 @@ footer {
 
 @media only screen and (max-width: 1000px) {
   .getTouch {
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    padding: 60px;
+    display: block;
   }
 }
 
