@@ -13,21 +13,17 @@ body {
   margin: 0;
 }
 
-section {
-  background-color: lavender;
+.navbarMain {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #05595B;
 }
-
-.hero {
-  background-color: darkslategray;
-  height: 70vh;
-  color: lavender;
-  font-size: 40px;
-}
-
-nav {
+navbar {
   display: flex;
   justify-content: space-between;
 }
+
 
 ul {
   margin-top: 2%;
@@ -63,12 +59,23 @@ p {
   font-weight: 300;
 }
 
+section {
+  background-color: lavender;
+}
+
+.hero {
+  background-color: darkslategray;
+  height: 70vh;
+  color: lavender;
+  font-size: 40px;
+}
 .subtext {
   font-size: 15px;
   font-weight: 300;
 }
 
 .hero-area {
+  margin-top: 50px;
   display: flex;
   height: 100%;
   justify-content: space-between;
@@ -302,7 +309,13 @@ footer {
   text-decoration: none;
 }
 
-
+@media only screen and (max-width: 1000px) {
+  .getTouch {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    padding: 60px;
+  }
+}
 
 /* ============ Responsiveness ================== */
 
