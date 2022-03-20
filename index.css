@@ -293,7 +293,7 @@ footer {
   display: flex;
   list-style-type: none;
   width: 60%;
-  margin-left: 15%;
+  margin-left: 20%;
   justify-content: space-evenly;
   font-size: 22px;
 }
