@@ -212,28 +212,18 @@ a {
 
 @media only screen and (max-width: 1000px) {
   .skils-logos {
-    display: grid;
     grid-template-columns: repeat(3, 60px);
-    grid-gap: 6px;
-    /* grid: 60px 60px ; */
-    justify-content: space-around;
-    place-items: center;
-    text-align: center;
     height: auto;
   }
 }
-@media only screen and (max-width: 480px) {
+
+@media only screen  and (max-width: 499px) {
   .skils-logos {
-    display: grid;
-    grid-template-columns: repeat(3, 60px);
-    grid-gap: 6px;
-    /* grid: 60px 60px ; */
-    justify-content: space-around;
-    place-items: center;
-    text-align: center;
+    grid-template-columns: repeat(2, 50px);
     height: auto;
   }
 }
+
 
 /*  ================ Project section CSS ================ */
 
