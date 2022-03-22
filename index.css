@@ -104,8 +104,8 @@ section {
   .hero {
     height: 360px;
   }
+  
 }
-
 
 /* ========== CSS for Subsection =================*/
 .sub-section {
@@ -183,7 +183,6 @@ a {
     padding: 16px;
   }
   .headshot {
-    width: 280px;
     margin: auto;
     margin-bottom: 2%;
   }
@@ -337,7 +336,6 @@ a {
   .project-desc button {
     margin: 8%;
     padding: 18px 32px;
-
   }
 }
 
