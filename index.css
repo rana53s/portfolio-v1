@@ -100,6 +100,14 @@ section {
   margin: 20px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .hero {
+    height: 360px;
+  }
+}
+
+
+/* ========== CSS for Subsection =================*/
 .sub-section {
   display: flex;
   justify-content: space-around;
@@ -328,6 +336,8 @@ a {
   }
   .project-desc button {
     margin: 8%;
+    padding: 18px 32px;
+
   }
 }
 
