@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -18,12 +18,11 @@ body {
   width: 100%;
   height: auto;
   position: fixed;
-  background-color: #05595B;
+  background-color: #05595b;
 }
 navbar {
   display: flex;
   justify-content: space-between;
-  
 }
 
 ul {
@@ -123,13 +122,13 @@ section {
   margin-top: 24px;
   font-size: 20px;
   font-weight: bold;
-  background-color: #e0d683 ;
+  background-color: #e0d683;
   border: none;
   border-radius: 6px;
   padding: 9px;
 }
 .information button:hover {
-  background-color: #e0d683 ;
+  background-color: #e0d683;
   padding: 12px 20px;
   cursor: pointer;
   border-radius: 10px;
@@ -159,14 +158,13 @@ a {
   outline: 0;
 }
 
-
 /* ===================== Skills section CSS ================= */
 
 .skillSection {
   margin-top: 5%;
   padding: 12px;
   background-color: darkslategray;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 .skillTitle {
   color: lavender;
@@ -217,18 +215,16 @@ a {
   }
 }
 
-@media only screen  and (max-width: 499px) {
+@media only screen and (max-width: 499px) {
   .skils-logos {
     grid-template-columns: repeat(2, 50px);
     height: auto;
   }
 }
 
-
 /*  ================ Project section CSS ================ */
 
 .project-section {
-  
   text-align: center;
   background-color: darkslategray;
   color: lavender;
@@ -237,7 +233,6 @@ a {
 .project-container {
   width: 100%;
   height: auto;
-  
 }
 
 .project-card {
@@ -262,19 +257,19 @@ a {
 }
 
 .project-desc {
-  margin-top:2%;
+  margin-top: 2%;
   width: 35%;
   height: 360px;
   /* margin: 2%; */
 }
 .project-desc h3 {
-  margin-top:12px;
-  margin-bottom:14px;
+  margin-top: 12px;
+  margin-bottom: 14px;
 }
 .project-desc p {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom:18px;
+  margin-bottom: 18px;
 }
 
 .project-desc button {
@@ -284,10 +279,10 @@ a {
   font-weight: bold;
   cursor: pointer;
   margin: 14px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 .project-desc button:hover {
-  background-color: #e0d683 ;
+  background-color: #e0d683;
   padding: 16px 30px;
 }
 
@@ -295,8 +290,18 @@ a {
   .project-card {
     display: block;
   }
+  .project-body {
+    width:100%;
+    height: 360px;
+    padding: 10px;
+  }
   .project-desc {
-    margin-left: 10%;
+    width:75%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .project-desc button {
+    margin: 10%;
   }
 }
 
@@ -304,10 +309,12 @@ a {
 
 footer {
   background-color: darkslategray;
-  color: lavender;
   text-align: center;
   padding: 70px;
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
+}
+#contact-me h3 {
+  color: lavender;
 }
 
 .getTouch ul {
@@ -317,6 +324,7 @@ footer {
   margin-left: 20%;
   justify-content: space-evenly;
   font-size: 22px;
+  color: lavender;
 }
 
 .getTouch ul li {
@@ -324,8 +332,13 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-  .getTouch {
+  #contact-me {
+    
+  }
+  .getTouch ul {
     display: block;
+    color: lavender;
+    
   }
 }
 
