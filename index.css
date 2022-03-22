@@ -69,6 +69,7 @@ section {
   height: 50vh;
   color: lavender;
   font-size: 40px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .subtext {
   font-size: 15px;
@@ -114,6 +115,7 @@ section {
   padding: 60px;
   background-color: darkslategray;
   margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .sub-section h2 {
@@ -198,6 +200,7 @@ a {
   padding: 12px;
   background-color: darkslategray;
   margin-bottom: 5%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .skillTitle {
   color: lavender;
@@ -261,6 +264,7 @@ a {
   text-align: center;
   background-color: darkslategray;
   color: lavender;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .project-container {
