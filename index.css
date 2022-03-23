@@ -297,6 +297,10 @@ a {
     width: 95px;
     margin: 8px;
   }
+  .skils-logos span p {
+    font-size: 10px;
+    font-weight: 400;
+  }
 }
 
 /*  ================ Project section CSS ================ */
@@ -446,7 +450,10 @@ footer {
     justify-content: space-around;
   }
 
-  .getTouch ul  li {
+  .getTouch ul li {
     padding-top: 60px;
+  }
+  .mail span p {
+    font-size: 12px;
   }
 }
