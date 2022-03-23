@@ -445,7 +445,7 @@ footer {
     width: 90%;
     display: grid;
     color: lavender;
-    grid-template-columns: repeat(5, 20px);
+    grid-template-columns: repeat(6, 20px);
     row-gap: 4px;
     justify-content: space-around;
   }
