@@ -44,6 +44,39 @@ li {
 h1 {
   font-size: 70px;
   margin: 0;
+  animation: moveInLeft 2s ease-out;
+}
+
+.text-3 {
+  animation: moveInRight 2s ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-120px);
+  }
+  65% {
+    transform: translate(15px)
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0)
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translate(130px);
+  }
+  65% {
+    transform: translate(-15px)
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0)
+  }
 }
 
 h2 {
